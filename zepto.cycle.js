@@ -1,6 +1,6 @@
 ;(function ($) {
   $.extend($.fn, {
-    cycleNext: function () {
+    cycleForward: function () {
       if (this.next().length > 0) {
         return this.next();
       } else {
@@ -8,7 +8,7 @@
       }
     },
 
-    cyclePrev: function () {
+    cycleBackward: function () {
       if (this.prev().length > 0) {
         return this.prev();
       } else {
